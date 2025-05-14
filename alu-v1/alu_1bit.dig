@@ -80,7 +80,12 @@
       <pos x="1220" y="300"/>
     </visualElement>
     <visualElement>
-      <elementName>MUX.dig</elementName>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="660" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mux.dig</elementName>
       <elementAttributes>
         <entry>
           <string>shapeType</string>
@@ -90,12 +95,7 @@
       <pos x="720" y="260"/>
     </visualElement>
     <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="660" y="280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>FullAdder.dig</elementName>
+      <elementName>full_adder.dig</elementName>
       <elementAttributes>
         <entry>
           <string>shapeType</string>

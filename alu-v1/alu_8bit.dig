@@ -4,16 +4,6 @@
   <attributes/>
   <visualElements>
     <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-140"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -338,76 +328,6 @@
       <pos x="960" y="-160"/>
     </visualElement>
     <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1b ALU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>MINIMIZED</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="700"/>
-    </visualElement>
-    <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
@@ -496,6 +416,86 @@
         </entry>
       </elementAttributes>
       <pos x="1380" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="-140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>alu_1bit.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>MINIMIZED</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="700"/>
     </visualElement>
   </visualElements>
   <wires>
