@@ -12,26 +12,21 @@ This then allows us to use a 4 bit opcode in order to control the alu using a lo
 - `alu_1bit` - Modular 1-bit ALU slice (with adder + logic + inverter controls)
 - `3to8_mux` - Modular 3 to 8 mux that takes a 3 bit opcode and picks between 8 inputs.
 
-> Note: `alu_1bit` and `full_adder` are **not** instantiated by `alu_8bit`; they remain for documentation of the design progression.
-
 ---
 
 ## Possible Operations
-
-
-OP 0 AND
-OP 1 OR
-OP 2 XOR
-OP 3 ADD
-OP 4 SUB
-OP 5 RSUB
-OP 6 NOTA
-OP 7 NOTB
-OP 8 PASSA
-OP 9 PASSB
-OP 10 CLEAR
-OP 11 SET
-```
+- OP 0 AND
+- OP 1 OR
+- OP 2 XOR
+- OP 3 ADD
+- OP 4 SUB
+- OP 5 RSUB
+- OP 6 NOTA
+- OP 7 NOTB
+- OP 8 PASSA
+- OP 9 PASSB
+- OP 10 CLEAR
+- OP 11 SET
 ---
 
 > All of the above are realized by appropriate settings of **InvertA**, **InvertB**, **Cin**, and selecting the correct gate output via the 3-bit opcode.
@@ -46,4 +41,4 @@ OP 11 SET
 - **1 3-to-8 MUX** driven by 3 bit Opcode
 
 
-Running: Download digital and open the file alu_8bit_fill within it.
+Running: cd to the digital folder (I included here, it's source is located at https://github.com/hneemann/Digital, was used to compose this project), and run ./Digital.sh, then go to file on top left, and open the alu-v4 folder, then open alu_8bit_full.
