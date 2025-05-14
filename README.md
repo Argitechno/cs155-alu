@@ -1,4 +1,4 @@
-# ALU-v3
+# ALU-v4
 
 This is the **fourth version** (`alu-v4`) of the 8-bit Arithmetic Logic Unit (ALU) project.
 Version 3 builds on v3 by adding functions to pass through a or b, or set the result to 0 or 1.
