@@ -1,4 +1,4 @@
-# ALU-v4
+# ALU-v3
 
 This is the **fourth version** (`alu-v4`) of the 8-bit Arithmetic Logic Unit (ALU) project.
 Version 3 builds on v3 by adding functions to pass through a or b, or set the result to 0 or 1.
@@ -41,4 +41,4 @@ This then allows us to use a 4 bit opcode in order to control the alu using a lo
 - **1 3-to-8 MUX** driven by 3 bit Opcode
 
 
-Running: Download digital and open the file alu_8bit_fill within it.
+Running: cd to the digital folder (I included here, it's source is located at https://github.com/hneemann/Digital, was used to compose this project), and run ./Digital.sh, then go to file on top left, and open the alu-v4 folder, then open alu_8bit_full.
