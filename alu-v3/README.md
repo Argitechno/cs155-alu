@@ -19,24 +19,17 @@ allowing operations—using only the existing gates plus the global `InvertA`, `
 ## Possible Operations
 
 
-
+```
 | AND                 | bitwise A ∧ B                  | InvertA=0, InvertB=0,        OP=00   |
-
 | OR                  | bitwise A ∨ B                  | InvertA=0, InvertB=0,        OP=01   |
-
 | XOR                 | bitwise A ⊕ B                  | InvertA=0, InvertB=0,        OP=10   |
-
 | NAND                | (¬A ∨ ¬B)                      | InvertA=1, InvertB=1,        OP=01   |
-
 | NOR                 | (¬A ∧ ¬B)                      | InvertA=1, InvertB=1,        OP=10   |
-
 | ADDITION            | A + B                          | InvertA=0, InvertB=0, Cin=0, OP=11   |
-
 | SUBTRACTION         | A – B (two’s-complement)       | InvertA=0, InvertB=1, Cin=1, OP=11   |
-
 | REVERSE SUBTRACTION | B – A                          | InvertA=1, InvertB=0, Cin=1, OP=11   |
-
 | NEG                 | −(A + B)                       | InvertA=1, InvertB=1, Cin=1, OP=11   |
+```
 ---
 
 > All of the above are realized by appropriate settings of **InvertA**, **InvertB**, **Cin**, and selecting the correct gate output via the 2-bit opcode.
